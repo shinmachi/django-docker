@@ -5,6 +5,10 @@
 
 $ docker-compose run web django-admin startproject mysite .
 
+### Create app
+
+$ docker-compose exec web python manage.py startapp polls
+
 ### Tips
 * 未使用イメージ一括削除
   $ docker image prune
